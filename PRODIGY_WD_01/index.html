@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+<body>
+
+    <!-- navigation bar -->
+    <nav class="navbar">
+        <img src="pdwd.png" alt="logo" id="logo">
+        
+        <!-- menu -->
+        <ul id="menu">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            
+            <li><a onmouseover="hover(this)" onmouseout="noHover(this)" onclick="myHome(this)">Home</a></li>
+            <li><a onmouseover="hover(this)" onmouseout="noHover(this)" onclick="myAbout(this)">About</a></li>
+            <li><a onmouseover="hover(this)" onmouseout="noHover(this)" onclick="myServices(this)">Services</a></li>
+            <li><a onmouseover="hover(this)" onmouseout="noHover(this)" onclick="myContact(this)">Contact</a></li>
+        </ul>
+
+        <span class="openbtn" onclick="openNav()">&#9776;</span>
+    </nav>
+
+
+    <!-- home -->
+    <section id="home">
+        <p class="para">Taking a web development internship at Prodigy Infotech offers a multitude of benefits. It provides practical experience by working on real projects and improving coding skills, alongside professional development through learning industry trends and building a robust portfolio. Interns receive valuable mentorship and constructive feedback from experienced developers, enhancing both technical and soft skills such as teamwork and problem-solving. Networking opportunities abound, allowing interns to connect with industry professionals and improve career prospects. Additionally, interns gain insights into Prodigy Infotech’s culture and operations, receive financial compensation and potential rewards, and boost their resumes and job readiness. Completing the internship also earns a certification, adding significant value to their professional profile. Overall, this internship is a comprehensive opportunity to develop both technical and professional skills, laying a solid foundation for a successful career in web development.</p>
+    </section>
+
+
+    <!-- about -->
+    <section id="about">
+        <h1 class="heading">About</h1>
+        <p class="para">Prodigy Infotech's web development internship provides hands-on experience in both front-end and back-end development, utilizing technologies like HTML, CSS, JavaScript, React, Node.js, and various databases. Interns collaborate with senior developers on real-world projects, focusing on writing clean code, debugging, and testing web applications. The program aims to enhance technical skills, problem-solving abilities, and teamwork. Ideal candidates are students or recent graduates in computer science or related fields with a foundational understanding of web technologies. The application process includes submitting a resume, a cover letter, and possibly completing a technical assessment and interviews. This internship offers a valuable opportunity to gain practical experience and industry insights.
+        </p>
+    </section>
+
+
+    <!-- services -->
+    <section id="services">
+        <h1 class="heading">Services</h1>
+        <ul id="service">
+            <li>Prodigy Infotech internship in web development.</li>
+        </ul>
+    </section>
+    
+
+    <!-- contact -->
+    <section id="contact">
+        <h1 class="heading">Get in touch</h1>
+
+        <ul>
+            <li><a href="godigiridhar@gmail.com" id="mail" onmouseover="mailOver(this)" onmouseout="mailOut(this)">Send Email</a></li>
+            <li><img src="phn.svg" alt="phone" height="15" style="margin-right: 5px;"> 7847976269</li>
+            <li><img src="loc.svg" alt="location" height="16" style="margin-right: 5px;">86 adgs, Giridhar, odisha</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p id="center">&copy; 2024 Giridhar, odisha</p>
+    </footer>
+
+    <script src="/script.js"></script>
+</body>
+</html>
